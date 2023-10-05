@@ -1,0 +1,26 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --main-color: #ffe1a8;
+}
+
+.wave{
+    position: absolute;
+    top: 0px;
+
+}
+.header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.075), rgba(0, 0, 0, 0.7)), url("Home.png");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
